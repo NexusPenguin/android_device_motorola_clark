@@ -149,6 +149,10 @@ TARGET_RELEASETOOLS_EXTENSIONS := $(DEVICE_PATH)/releasetools
 # SELinux
 include device/qcom/sepolicy/sepolicy.mk
 
+# Telephony-ext
+PRODUCT_PACKAGES += telephony-ext
+PRODUCT_BOOT_JARS += telephony-ext
+
 BOARD_SEPOLICY_DIRS += \
     $(DEVICE_PATH)/sepolicy
 
