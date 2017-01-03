@@ -63,8 +63,8 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/com.motorola.cameraone.xml:system/etc/permissions/com.motorola.cameraone.xml
 
 # CMActions
-PRODUCT_PACKAGES += \
-    MotoActions
+#PRODUCT_PACKAGES += \
+#    MotoActions
 
 # Display
 PRODUCT_AAPT_CONFIG := normal
